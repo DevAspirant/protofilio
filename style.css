@@ -120,3 +120,33 @@ li a{
     height: 38px;
 }
 
+/* boxes */
+
+#boxes{
+    margin-top: 20px;
+    padding: 60px 120px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#boxes .box{
+    text-align: center;
+    margin-left: 10px;
+}
+
+@media (max-width:1020px) {
+    #boxes{
+        flex-direction: column;
+    }
+}
+
+/* footer */
+#footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: #32a0c2;
+    text-align: center;
+}
